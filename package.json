@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "npx nodemon",
     "build": "rimraf ./dist && tsc && tsc-alias",
-    "start": "npm run build && node dist/main.js",
+    "start": "npm run build && node dist/src/main.js",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "prettier:format": "prettier --config .prettierrc 'src/**/*.ts' --write",
